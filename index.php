@@ -13,7 +13,7 @@ $title = 'Main Page';
 </head>
 <body>
 <?php
-    if (isset($title)) echo 'Hello Git!';
+    if (!empty($title)) echo 'Hello Git!';
 ?>
 </body>
 </html>
